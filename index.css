@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding-top: 650px;
+    text-align: center;
+}
+
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    height: 600px;
+    color:black;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background:linear-gradient(red, yellow, green);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+
+}
+
+h1 {
+    font-size: 40px;
+    font-family:'Cinzel Decorative', cursive;
+    font-weight: 300;
+}
+
+#myname {
+    font-size: 30px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+#about {
+    padding: 10x;
+    font-size: 20px;
+    text-align: center;
+background-color:aquamarine
+}
+
+
+
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 25px;
+    line-height: 1.3;
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.menu {
+    list-style: none;
+    font-family: cursive;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+#ab {
+    font-size: 20px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.links {
+    float: right;
+    color: fuchsia;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px
+}
+
+.links:hover {
+    background-color: aqua;
+}
